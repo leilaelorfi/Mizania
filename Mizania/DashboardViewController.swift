@@ -14,7 +14,7 @@ class DashboardViewController: UIViewController {
    
     var toPass:String!
    
-    override func viewDidLoad() {
+    override func viewDidLoad() {//
         super.viewDidLoad()
         
         self.userNameLabel.text = "Hello" + toPass
